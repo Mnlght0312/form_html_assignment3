@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="row container">
+                <div class="col-2 white">
+                    <div>
+                        <h2>General information</h2>
+                    </div>
+                    <form action="">
+                        <div>
+                            <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                            <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="date" name="date" id="date" placeholder="yyyy.mm.dd">
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" name="company" id="company" placeholder="Company" required>
+                        </div>
+                        <br>
+                        <div>
+                            <select name="position" id="position" required>
+                                <option value="position">Position</option>
+                                <option value="Maanager">Manager</option>
+                                <option value="Director">Director</option>
+                                <option value="Employee">Employee</option>
+                            </select>
+                        </div>
+                        <br>
+                    </form>
+                </div>
+                <div class="col-2 blue">
+                    <div>
+                        <h2>Contact Details</h2>
+                    </div>
+                    <form action="">
+
+                        <div>
+                            <input type="text" name="street" id="street" placeholder="Street">
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" name="info" id="info" placeholder="Additional information">
+                        </div>
+                        <br>
+                        <div>
+                            <input type="number" name="zipcode" id="zipcode" placeholder="Zip Code">
+                            <select name="Place" id="Place" required>
+                                <option value="Place">Place</option>
+                                <option value="Ulaanbaatar">Ulaanbaatar</option>
+                                <option value="Beijing">Beijing</option>
+                                <option value="Moscow">Moscow</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <select name="Country" id="Country" required>
+                                <option value="Country">Country</option>
+                                <option value="Mongolia">Mongolia</option>
+                                <option value="Russia">Russia</option>
+                                <option value="China">China</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="number" name="code" id="code" placeholder="Code" required>
+                            <input type="number" name="pnumber" id="pnumber" placeholder="Phone Number" required>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="checkbox" id="terms" name="terms" value="terms" >
+                            <label for="terms">i do accept the <a href="#"> Terms and Conditions</a> of your site.</label>
+                        </div>
+                    <br>
+                    <div>
+                        <input type="submit" value="Register Badge" id="submit">
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
